@@ -23,7 +23,7 @@ public class PetClinicTest {
 		System.setProperty("webdriver.gecko.driver", "/var/lib/jenkins/workspace/Selenium_Maven/geckodriver"); 
 		//System.setProperty("webdriver.gecko.driver", "/var/lib/jenkins/workspace/Petclininc/geckodriver"); 
 		WebDriver driver =new FirefoxDriver();
-		driver.navigate().to("http://192.168.99.1:8084/petclinic/");
+		driver.navigate().to("http://ec2-54-154-141-198.eu-west-1.compute.amazonaws.com/petclinic11/");
 	  	//driver.get("http://localhost:8084/petclinic/");  
 	  	//WebDriverWait wait = new WebDriverWait(driver, 20);
 		//wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("html/body/div[1]/div[@class='container xd-container']/h2")));
